@@ -17,70 +17,35 @@ body {
   color: #333;
 }
 /* 커스텀 */
-.inner {
+.container {
   width: 1200px;
-  background-color: #f1f1f1;
-  /* 가운데 정렬 */
-  margin-left: auto; margin-right: auto;
+  background-color: #ddd;
+  margin: 0 auto;
 }
 header {
+  background-color: #aaa;
+}
+.hd-con {
+  display: flex;
   height: 100px;
-  background-color: #e1e1e1;
-  display: flex;
 }
-header > h1 {
-  width: 180px; 
-  background-color: #c1c1c1;
-}
-header > .nav {
-  background-color: #b1b1b1;
-  flex-grow: 1;
-  position: relative;
-}
-.nav > .menu1 {
-  background-color: #a1a1a1;
-  position: absolute;
-  right: 20px; top: 50%;
-  transform: translateY(-50%);
-  width: 700px; height: 60px;
-}
-.mid > .slide {
-  height: 300px;
-  background-color: #d1d1d1;
-}
-.mid > .content {
-  height: 300px;
-  background-color: #c1c1c1;
-  display: flex;
-}
-.mid .no-gal-box {
-  background-color: #a1a1a1;
-  flex-grow: 1;
-}
-.mid .banner {
-  background-color: #b1b1b1;
-  flex-grow: 1;
-}
-.mid .short {
-  background-color: #a1a1a1;
-  flex-grow: 1;
-}
-footer {
-  height: 100px;
-  background-color: #e1e1e1;
-  display: flex;
-}
-footer > .logo-box {
-  background-color: #f1f1f1;
+h1 {
+  background-color: #bbb;
   width: 180px;
 }
-footer > .fr-menu {
-  background-color: #d1d1d1;
+nav {
+  background-color: #ccc;
   flex-grow: 1;
   display: flex;
-  flex-direction: column;
+  justify-content: right;
+  align-items: end;
+  padding-right: 20px;
 }
-.fr-menu > div {
-  flex-grow: 1;
-  border: 1px solid #000;
+.menu1 {
+  background-color: #eee;
+  width: 700px; height: 60px;
+}
+
+footer {
+  background-color: #ccc;
 }
