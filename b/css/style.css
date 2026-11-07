@@ -45,7 +45,35 @@ nav {
   background-color: #eee;
   width: 700px; height: 60px;
 }
-
+main .slide {
+  background-color: #aaa;
+  height: 300px;
+}
+main .content {
+  background-color: #bbb;
+  height: 200px;
+  display: flex;
+}
+.content div {
+  flex-grow: 1;
+  flex-basis: 0;
+  border: 1px solid #000;
+}
 footer {
   background-color: #ccc;
+}
+.ft-con {
+  height: 100px;
+  display: flex;
+}
+.copy-box {
+  flex-grow: 1;
+}
+.fr-menu {
+  background-color: #aaa;
+  width: 180px;
+}
+.fr-menu > div {
+  height: 50px;
+  border: 1px solid #000;
 }
