@@ -1,0 +1,86 @@
+/* 노멀라이즈 */
+body, ul, li {
+  margin: 0; padding: 0;
+  list-style: 0;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  margin: 0; padding: 0;
+  font-size: inherit; font-weight: inherit;
+}
+/* 요구사항 정의서 */
+body {
+  background-color: #fff;
+  color: #333;
+}
+/* 커스텀 */
+header {
+  background-color: #aaa;
+}
+.container {
+  width: 1200px; 
+  margin: 0 auto;
+  background-color: #bbb;
+}
+.hd-con {
+  height: 100px;
+  display: flex;
+}
+h1 {
+  width: 180px;
+}
+nav{
+  flex-grow: 1;
+  background-color: #ccc;
+  position: relative;
+}
+.menu1 {
+  background-color: #aaa;
+  position: absolute;
+  width: 700px; height: 50px;
+  bottom: 0; right: 20px;
+}
+.slide  {
+  background-color: #333;
+  height: 300px;
+}
+.contents {
+  background-color: #bbb;
+  height: 200px;
+  display: flex;
+}
+.not-box {
+  background-color: #aaa;
+  flex-grow: 1;
+}
+.gal-box {
+  background-color: #bbb;
+  flex-grow: 1;
+}
+.short-box {
+  background-color: #ccc;
+  flex-grow: 1;
+}
+footer {
+  background-color: #aaa;
+}
+.ft-con {
+  height: 100px;
+  display: flex;
+}
+.copy-box {
+  background-color: #ddd;
+  flex-grow: 1;
+}
+.ft-menu {
+  width: 180px;
+  background-color: #aaa;
+}
+.ft-menu > div {
+  height: 50px;
+  border: 1px solid #000;
+}
+
